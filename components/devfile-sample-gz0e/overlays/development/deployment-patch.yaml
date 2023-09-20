@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-gz0e
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-777-0004-tenant/ci10t-777-0004-app/devfile-sample-gz0e@sha256:713c3d7def0fd64e93a3a03d18085c230257ef147e2b7ec122104b3124986b63
+        name: my-nodejs
+        resources: {}
+status: {}
